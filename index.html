@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/index.js"></script>
 </head>
 <body>
     <header>
@@ -22,9 +21,37 @@
         <section>
             <img src="./assets/klipartz.com.png" alt="">
         </section>
+    <br>
+    <form id="formularioPrestamo">
+        <legend>Saca aqui tu prestamo</legend>
+        <br>
+        <label for="nombre">Ingrese su nombre: </label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <label for="apellido">Ingrese su apellido: </label>
+        <input type="text" id="apellido" name="apellido">
+        <br>
+        <label for="edad">Ingrese su edad: </label>
+        <input type="text" id="edad" name="edad">
+        <br>
+        <label for="dni">Ingrese su DNI:</label>
+        <input type="text" id="dni" name="dni">
+        <br>
+        <label for="valorPrestamo">Ingrese el monto en pesos del prestamo que desea obtener: </label>
+        <input type="text" id="valorPrestamo" name="valorPrestamo">
+        <br>
+        <label for="tiempodePago">¿En cuantos meses desea pagar su prestamo?</label>
+        <input type="text" id="tiempodePago" name="tiempodePago">
+        <br>
+        <label for="plandePago">¿Desea un plan de pago en cuotas para su prestamo? (si/no): </label>
+        <input type="text" id="plandePago" name="plandePago">
+        <br>
+        <button id="botonCalcularPrestamo">Calcular prestamo</button>
+    </form>
     </main>
+    <footer>
+        <h4>terminos y condiciones</h4>
+    </footer>
+    <script src="./js/index.js"></script>
 </body>
-<footer>
-    <h4>terminos y condiciones</h4>
-</footer>
 </html>
