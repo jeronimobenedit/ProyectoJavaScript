@@ -1,0 +1,29 @@
+[
+    {
+    "nombre": "Ramiro",
+    "apellido": "Ustariz",
+    "edad": 26,
+    "dni": "38392482",
+    "valorPrestamo": 15000,
+    "tiempoPago": 12,
+    "planPago": "si"
+    },
+    {
+    "nombre": "Mauro",
+    "apellido": "Lombardo",
+    "edad": 27,
+    "dni": "37456789",
+    "valorPrestamo": 200000,
+    "tiempoPago": 24,
+    "planPago": "no"
+    },
+    {
+        "nombre": "Alejo",
+        "apellido": "Acosta",
+        "edad": 25,
+        "dni": "40456789",
+        "valorPrestamo": 250000,
+        "tiempoPago": 6,
+        "planPago": "si"
+    }
+]
